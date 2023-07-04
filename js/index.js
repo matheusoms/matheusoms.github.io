@@ -129,11 +129,11 @@ new Swiper('#projects .swiper-container', {
            }
            function linkhover(e){
             gsap.to( $cursor,{
-              scale:1.5,
-              opacity:1,
+              scale:1.0,
+              opacity:0.5,
               background:'rgb(245,245,245)',
               border:'none',
-              innerHTML:'view <br> project'
+              innerHTML:'ver <br> projeto'
              })
              gsap.to( $cursortwo,{
               scale:0,
